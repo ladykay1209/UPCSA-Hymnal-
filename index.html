@@ -1,0 +1,665 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+    content="Official Privacy Policy for the UPCSA Hymnal mobile application.">
+
+  <meta name="theme-color" content="#142d4e">
+
+  <title>Privacy Policy | UPCSA Hymnal</title>
+
+  <style>
+    /* =================================
+       FONT
+    ================================= */
+
+    @font-face {
+      font-family: "CODEX";
+      src: url("fonts/CODEX.woff2") format("woff2"),
+           url("fonts/CODEX.ttf") format("truetype");
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    /* =================================
+       COLOUR PALETTE
+    ================================= */
+
+    :root {
+      --navy: #142d4e;
+      --navy-light: #244e78;
+      --gold: #c6a45c;
+      --gold-light: #e3c986;
+      --background: #f5f7fa;
+      --text: #344054;
+      --muted: #667085;
+      --white: #ffffff;
+      --border: #e6eaf0;
+    }
+
+    /* =================================
+       GENERAL STYLING
+    ================================= */
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont,
+        "Segoe UI", Roboto, Arial, sans-serif;
+
+      background: var(--background);
+      color: var(--text);
+      line-height: 1.75;
+    }
+
+    a {
+      color: var(--navy-light);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* =================================
+       HEADER
+    ================================= */
+
+    header {
+      background: var(--navy);
+      color: var(--white);
+      text-align: center;
+
+      padding: 75px 20px 65px;
+
+      border-bottom: 5px solid var(--gold);
+    }
+
+    .brand {
+      font-family: "CODEX", serif;
+      font-size: clamp(15px, 2.5vw, 23px);
+      letter-spacing: 2px;
+      line-height: 1.6;
+
+      color: var(--gold-light);
+
+      max-width: 850px;
+      margin: 0 auto 28px;
+
+      font-weight: normal;
+      text-transform: uppercase;
+    }
+
+    .header-divider {
+      width: 65px;
+      height: 3px;
+      background: var(--gold);
+      margin: 0 auto 25px;
+    }
+
+    header h1 {
+      font-size: clamp(32px, 5vw, 46px);
+      font-weight: 650;
+      margin-bottom: 10px;
+      letter-spacing: -1px;
+    }
+
+    header p {
+      color: #d8e2ef;
+      font-size: 16px;
+    }
+
+    /* =================================
+       MAIN CONTENT
+    ================================= */
+
+    .container {
+      max-width: 950px;
+      margin: 50px auto;
+      padding: 0 22px;
+    }
+
+    .policy {
+      background: var(--white);
+      padding: clamp(25px, 5vw, 60px);
+
+      border-radius: 14px;
+
+      border: 1px solid var(--border);
+
+      box-shadow: 0 8px 30px rgba(16, 35, 60, 0.05);
+    }
+
+    .updated {
+      display: inline-block;
+
+      background: #f1f4f8;
+      color: var(--muted);
+
+      padding: 7px 15px;
+      border-radius: 30px;
+
+      font-size: 13px;
+      margin-bottom: 28px;
+    }
+
+    .intro {
+      font-size: 17px;
+      color: #475467;
+      margin-bottom: 35px;
+    }
+
+    section {
+      margin-bottom: 35px;
+      scroll-margin-top: 30px;
+    }
+
+    section h2 {
+      color: var(--navy);
+      font-size: 21px;
+      font-weight: 650;
+
+      margin-bottom: 12px;
+    }
+
+    section p {
+      margin-bottom: 13px;
+    }
+
+    ul {
+      padding-left: 25px;
+      margin: 12px 0 15px;
+    }
+
+    li {
+      padding-left: 4px;
+      margin-bottom: 8px;
+    }
+
+    /* =================================
+       CONTACT SECTION
+    ================================= */
+
+    .contact {
+      background: #f5f7fa;
+      border-left: 4px solid var(--gold);
+
+      padding: 25px;
+      border-radius: 5px;
+    }
+
+    .contact p:last-child {
+      margin-bottom: 0;
+    }
+
+    /* =================================
+       FOOTER
+    ================================= */
+
+    footer {
+      background: var(--navy);
+      color: #d8e2ef;
+
+      text-align: center;
+      padding: 35px 20px;
+
+      font-size: 13px;
+    }
+
+    footer .footer-brand {
+      font-family: "CODEX", serif;
+      color: var(--gold-light);
+      letter-spacing: 1px;
+      margin-bottom: 10px;
+      font-size: 15px;
+    }
+
+    footer p {
+      margin-bottom: 5px;
+    }
+
+    /* =================================
+       MOBILE RESPONSIVENESS
+    ================================= */
+
+    @media (max-width: 600px) {
+
+      header {
+        padding: 55px 20px 45px;
+      }
+
+      .brand {
+        letter-spacing: 1px;
+        margin-bottom: 22px;
+      }
+
+      .container {
+        margin: 25px auto;
+        padding: 0 14px;
+      }
+
+      .policy {
+        padding: 27px 21px;
+        border-radius: 10px;
+      }
+
+      section h2 {
+        font-size: 19px;
+      }
+
+      .intro {
+        font-size: 16px;
+      }
+
+      .contact {
+        padding: 18px;
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+
+  <header>
+
+    <div class="brand">
+      THE UNITING PRESBYTERIAN CHURCH
+      IN SOUTHERN AFRICA
+    </div>
+
+    <div class="header-divider"></div>
+
+    <h1>Privacy Policy</h1>
+
+    <p>UPCSA Hymnal Mobile Application</p>
+
+  </header>
+
+
+  <!-- MAIN CONTENT -->
+
+  <main class="container">
+
+    <article class="policy">
+
+      <span class="updated">
+        Last updated: 24 November 2026
+      </span>
+
+
+      <p class="intro">
+        The United Presbyterian Church in Southern Africa respects
+        your privacy and is committed to protecting the personal
+        information of individuals who use the UPCSA Hymnal
+        mobile application.
+
+        This Privacy Policy explains how information is collected,
+        used, stored and protected when you use the application.
+      </p>
+
+
+      <!-- 1 -->
+
+      <section>
+
+        <h2>1. About the Application</h2>
+
+        <p>
+          UPCSA Hymnal is a mobile application developed to support
+          worship, fellowship, spiritual growth and the preservation
+          of Christian hymnody within the United Presbyterian Church
+          in Southern Africa.
+        </p>
+
+        <p>
+          The application provides access to hymns, devotional
+          materials, fellowship resources and other church-related
+          content intended to support the spiritual life of its users.
+        </p>
+
+      </section>
+
+
+      <!-- 2 -->
+
+      <section>
+
+        <h2>2. Information We Collect</h2>
+
+        <p>
+          The information processed by the application depends on
+          the features you choose to use.
+        </p>
+
+        <p>This may include:</p>
+
+        <ul>
+
+          <li>
+            Account information, where account registration
+            or sign-in is provided.
+          </li>
+
+          <li>
+            Information voluntarily submitted by users
+            through application features.
+          </li>
+
+          <li>
+            Technical information necessary for application
+            functionality.
+          </li>
+
+          <li>
+            Diagnostic and crash information, where enabled
+            through the services used by the application.
+          </li>
+
+        </ul>
+
+        <p>
+          We aim to limit the collection of personal information
+          to what is necessary for providing and maintaining
+          the application's services.
+        </p>
+
+      </section>
+
+
+      <!-- 3 -->
+
+      <section>
+
+        <h2>3. How We Use Information</h2>
+
+        <p>
+          Information processed through the application may be
+          used for the following purposes:
+        </p>
+
+        <ul>
+
+          <li>Providing and maintaining application features.</li>
+
+          <li>Supporting account registration and authentication.</li>
+
+          <li>Delivering hymns, devotional and fellowship resources.</li>
+
+          <li>Improving application performance and reliability.</li>
+
+          <li>Identifying and resolving technical problems.</li>
+
+          <li>Maintaining and updating application content.</li>
+
+        </ul>
+
+      </section>
+
+
+      <!-- 4 -->
+
+      <section>
+
+        <h2>4. Third-Party Services</h2>
+
+        <p>
+          Certain application features may rely on third-party
+          service providers to support authentication, cloud
+          infrastructure, content delivery and application functionality.
+        </p>
+
+        <p>
+          These providers may process information in accordance
+          with their own privacy policies and terms of service.
+        </p>
+
+        <p>
+          Where applicable, you may review Google's privacy policy:
+        </p>
+
+        <p>
+          <a href="https://policies.google.com/privacy"
+             target="_blank"
+             rel="noopener noreferrer">
+            Google Privacy Policy
+          </a>
+        </p>
+
+      </section>
+
+
+      <!-- 5 -->
+
+      <section>
+
+        <h2>5. Device Permissions</h2>
+
+        <p>
+          Depending on the features you use, UPCSA Hymnal may
+          request access to certain device functions, including:
+        </p>
+
+        <ul>
+
+          <li>
+            Internet access to retrieve application content
+            and services.
+          </li>
+
+          <li>
+            Photo-library or storage access when saving
+            or selecting images.
+          </li>
+
+          <li>
+            Notification permissions where notifications
+            are enabled.
+          </li>
+
+        </ul>
+
+        <p>
+          You can manage available device permissions through
+          your device settings.
+        </p>
+
+      </section>
+
+
+      <!-- 6 -->
+
+      <section>
+
+        <h2>6. Sharing of Information</h2>
+
+        <p>
+          We do not sell personal information to third parties.
+        </p>
+
+        <p>
+          Information may be processed by service providers where
+          necessary to operate, maintain and improve application
+          functionality.
+        </p>
+
+        <p>
+          Information may also be disclosed where required
+          by applicable law or lawful authority.
+        </p>
+
+      </section>
+
+
+      <!-- 7 -->
+
+      <section>
+
+        <h2>7. Data Security and Retention</h2>
+
+        <p>
+          Reasonable technical and organisational measures are
+          taken to protect information processed through the
+          application against unauthorised access, alteration,
+          loss or disclosure.
+        </p>
+
+        <p>
+          Information is retained only for as long as necessary
+          for the purposes for which it was collected, subject
+          to applicable legal requirements.
+        </p>
+
+      </section>
+
+
+      <!-- 8 -->
+
+      <section>
+
+        <h2>8. Children's Privacy</h2>
+
+        <p>
+          UPCSA Hymnal provides church and fellowship resources
+          that may be used by individuals of different ages.
+        </p>
+
+        <p>
+          We do not knowingly seek to collect personal information
+          from children beyond what is necessary for the
+          application's legitimate functionality.
+        </p>
+
+      </section>
+
+
+      <!-- 9 -->
+
+      <section>
+
+        <h2>9. Your Privacy Rights</h2>
+
+        <p>
+          Subject to applicable privacy legislation, users may
+          have the right to:
+        </p>
+
+        <ul>
+
+          <li>Request access to their personal information.</li>
+
+          <li>Request correction of inaccurate information.</li>
+
+          <li>Request deletion of personal information.</li>
+
+          <li>Raise concerns about how their information is processed.</li>
+
+        </ul>
+
+        <p>
+          Privacy-related enquiries and requests may be submitted
+          using the contact details provided below.
+        </p>
+
+      </section>
+
+
+      <!-- 10 -->
+
+      <section>
+
+        <h2>10. Changes to This Privacy Policy</h2>
+
+        <p>
+          This Privacy Policy may be updated from time to time
+          to reflect changes in the application, its services
+          or applicable legislation.
+        </p>
+
+        <p>
+          The latest version will always be made available
+          through this webpage.
+        </p>
+
+      </section>
+
+
+      <!-- 11 -->
+
+      <section>
+
+        <h2>11. Contact Us</h2>
+
+        <div class="contact">
+
+          <p>
+            If you have questions, concerns or requests relating
+            to this Privacy Policy or the handling of personal
+            information through UPCSA Hymnal, please contact
+            the application team.
+          </p>
+
+          <p>
+
+            <strong>Application:</strong>
+            UPCSA Hymnal
+            <br>
+
+            <strong>Organisation:</strong>
+            The Uniting Presbyterian Church in Southern Africa
+            <br>
+
+            <strong>Email:</strong>
+
+            <a href="mailto:REPLACE_WITH_OFFICIAL_EMAIL">
+              REPLACE_WITH_OFFICIAL_EMAIL
+            </a>
+
+          </p>
+
+        </div>
+
+      </section>
+
+
+    </article>
+
+  </main>
+
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <div class="footer-brand">
+      THE UNITING PRESBYTERIAN CHURCH
+      IN SOUTHERN AFRICA
+    </div>
+
+    <p>UPCSA Hymnal Mobile Application</p>
+
+    <p>
+      &copy; 2026 The Uniting Presbyterian Church in Southern Africa.
+    </p>
+
+    <p>All rights reserved.</p>
+
+  </footer>
+
+</body>
+</html>
